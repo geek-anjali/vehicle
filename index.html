@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Run Vehicle</title>
+    <script src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        .cntnr{
+            height: 100vh;
+            /* border: 5px solid black; */
+        }
+        .footer{
+            margin-top: 80px;
+            /* position: absolute; */
+            /* width: 100%; */
+            /* bottom: 0px; */
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid cntnr">
+        <div class="row">
+            <div class="col-12 bg-danger">
+                <h1 class="text-center text-light my-3">Run The Vehicle</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 mt-3 text-center"><button class="btn btn-danger" id="bike">Bike</button></div>
+                <div class="col-3 mt-3 text-center"><button class="btn btn-outline-danger" id="car">Car</button></div>
+                <div class="col-3 mt-3 text-center"><button class="btn btn-outline-danger" id="bus">Bus</button></div>
+                <div class="col-3 mt-3 text-center"><button class="btn btn-outline-danger" id="truck">Truck</button></div>
+            </div>
+            <hr>
+            <div class="row pt-2">
+                <div class="m-auto mt-5 col-6 border-danger border border-2 rounded" id="image">
+                    <img src="bike.png" alt="" class="mx-auto d-block img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-12 bg-dark pt-2">
+                <p class="text-light text-center">Copyright &copy; Developed By Aryan</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </body>
+</html>
